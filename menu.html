@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ASTRONOMY COMMUNITY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js"></script>
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span> 
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">ASTRONOMY COMMUNITY</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#chat">Chating with others</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#apps">Apps</a></li>
+                    <li><a href="#aboutme">About me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <center>
+            <h1 class="header">
+                Astronomy Community
+                <sup>
+                    <img src="/background.jpg">
+                </sup>
+            </h1>
+            
+            <h3 id="welcome">Welcome</h3>
+            <div id="chat" style="color:orange; background-color:white; border-radius: 20px;">
+                <br>
+                <h2>Join other astronomers with our chat</h2>
+                <br>
+                <button class="btn btn-warning" onclick="join();">Join</button>
+                <br>
+                <br>
+                <h3>You can join by just using your name and join a room to chat with others :)</h3>
+                <br>
+
+            </div>
+            <h2>Books</h2>
+            <div id="books" style="color:orange; background-color:white; border-radius: 20px;">
+                <h3>Bill Gates</h3>
+            <h4>
+                <mark class="header_entrepreneur">
+                    <i>
+                        <sup><i class="fa fa-quote-left"></i></sup>
+                        Reading is still the main way that I both learn new things and test my understanding.
+                        <sup><i class="fa fa-quote-right"></i></sup>
+                    </i>
+                </mark>
+            </h4>
+            <br>
+            <br>
+            <h2 class="text-capitalize">List of books</h2>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#manonthemoon">
+                <img src="s2.jpg" class="img-responsive">
+                <hr>
+                <p class="text-primary">Man on the Moon</p>
+            </div>
+            <div class="modal-fade" id="manonthemoon">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Man on the Moon</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </center>
+        </div>
+    </body>
+</html>
